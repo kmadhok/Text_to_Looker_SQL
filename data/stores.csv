@@ -1,0 +1,501 @@
+store_id,store_name,city,region,opened_date
+1,Holland-Stanley Store,"Seattle, WA",West,2023-03-02
+2,"Burton, Campbell and Gonzalez Store","Phoenix, AZ",North,2022-11-20
+3,Reed-Medina Store,"Los Angeles, CA",East,2023-06-12
+4,"Grant, Blake and Porter Store","Jacksonville, FL",South,2024-04-18
+5,Thomas Inc Store,"San Jose, CA",West,2021-07-01
+6,"Werner, Miller and Johnson Store","Phoenix, AZ",Central,2021-05-19
+7,"Morgan, Mitchell and Bennett Store","Columbus, OH",South,2021-08-26
+8,Carter-Thomas Store,"San Antonio, TX",South,2024-04-29
+9,"Harrison, Parks and Perkins Store","Los Angeles, CA",South,2022-03-22
+10,Rogers-Brown Store,"Houston, TX",South,2021-08-28
+11,"Richardson, Smith and Castro Store","Fort Worth, TX",North,2020-09-03
+12,Fuller Inc Store,"Columbus, OH",East,2024-05-22
+13,"Aguilar, Torres and Gonzalez Store","Los Angeles, CA",North,2021-09-24
+14,Taylor-Cole Store,"Denver, CO",North,2021-01-10
+15,Harris-Soto Store,"San Francisco, CA",Central,2020-08-15
+16,"Johnson, Meyer and Moore Store","Philadelphia, PA",North,2021-10-06
+17,"Boyd, Baker and Jordan Store","Phoenix, AZ",East,2021-08-29
+18,Hernandez and Sons Store,"Phoenix, AZ",North,2022-02-22
+19,Phillips-Vasquez Store,"San Diego, CA",North,2023-08-10
+20,Jackson LLC Store,"New York, NY",Central,2021-02-24
+21,Odonnell-Harris Store,"Columbus, OH",South,2023-02-07
+22,Scott Inc Store,"Philadelphia, PA",West,2022-04-09
+23,Mcknight PLC Store,"Phoenix, AZ",Central,2020-08-01
+24,"Reed, Howe and Vasquez Store","San Jose, CA",West,2021-07-14
+25,Davis and Sons Store,"Columbus, OH",East,2024-05-19
+26,Mendez-Bell Store,"Charlotte, NC",North,2022-09-01
+27,"Martin, Wilson and Lopez Store","San Jose, CA",North,2021-04-15
+28,"Paul, Montgomery and Mckee Store","Phoenix, AZ",North,2020-07-29
+29,"Martin, Richards and Pearson Store","Los Angeles, CA",Central,2024-05-16
+30,Farley-Taylor Store,"Philadelphia, PA",Central,2020-09-17
+31,Mitchell-Ramirez Store,"Philadelphia, PA",North,2022-02-08
+32,Bennett-Ford Store,"Fort Worth, TX",West,2023-09-27
+33,Jackson-Nolan Store,"Charlotte, NC",Central,2022-09-09
+34,Brown-Becker Store,"Dallas, TX",Central,2023-01-24
+35,Wright-Joyce Store,"Indianapolis, IN",East,2024-04-30
+36,"Cunningham, Kelly and Andrade Store","San Diego, CA",West,2023-12-29
+37,"Henson, Robertson and Wilson Store","Philadelphia, PA",East,2021-01-17
+38,Fuller-Duran Store,"Chicago, IL",Central,2020-11-24
+39,Rice and Sons Store,"Fort Worth, TX",South,2021-10-04
+40,Thomas-Sanchez Store,"San Antonio, TX",West,2024-03-23
+41,"Melton, Weaver and Ortiz Store","Boston, MA",North,2023-10-20
+42,Herrera Inc Store,"San Diego, CA",West,2023-12-01
+43,"Conner, Rice and Maxwell Store","Philadelphia, PA",Central,2021-03-19
+44,Lamb Inc Store,"Boston, MA",North,2023-11-15
+45,Lee-Arellano Store,"Charlotte, NC",West,2022-06-05
+46,Gross PLC Store,"Austin, TX",West,2021-05-15
+47,Perez PLC Store,"Fort Worth, TX",South,2021-08-17
+48,Rojas Ltd Store,"Los Angeles, CA",East,2022-05-15
+49,Vargas-Horton Store,"Columbus, OH",South,2023-12-15
+50,"Grimes, Martinez and Smith Store","Dallas, TX",North,2020-07-09
+51,Ibarra-Lane Store,"Houston, TX",North,2020-08-11
+52,Good-Carter Store,"Jacksonville, FL",Central,2024-02-12
+53,Bailey-Mann Store,"Austin, TX",North,2020-07-26
+54,Garza-Mcneil Store,"San Diego, CA",East,2020-12-07
+55,Wright-Gibson Store,"Philadelphia, PA",Central,2022-03-17
+56,Tran LLC Store,"Houston, TX",North,2021-06-14
+57,"Frost, Stewart and Owen Store","San Antonio, TX",Central,2022-02-14
+58,Franklin-Greene Store,"New York, NY",East,2022-04-26
+59,Hart and Sons Store,"San Antonio, TX",Central,2023-06-02
+60,Martin Group Store,"San Antonio, TX",North,2021-05-06
+61,Gould-Burns Store,"San Diego, CA",East,2020-08-22
+62,"Hensley, Gilbert and Duncan Store","Chicago, IL",Central,2024-06-03
+63,Ortiz-Hubbard Store,"Denver, CO",North,2023-03-16
+64,Bradshaw LLC Store,"Denver, CO",West,2020-09-20
+65,Parker Inc Store,"Los Angeles, CA",North,2024-01-16
+66,Holmes-Chase Store,"Austin, TX",North,2021-01-26
+67,"Deleon, Wallace and Cochran Store","San Jose, CA",North,2022-08-29
+68,"Schultz, Reynolds and Cantu Store","Jacksonville, FL",East,2023-09-17
+69,"Miller, Garcia and Sparks Store","Fort Worth, TX",Central,2021-02-09
+70,Lopez-Young Store,"San Antonio, TX",East,2023-06-20
+71,Wright-Stanley Store,"Fort Worth, TX",East,2022-04-27
+72,"Williams, Robinson and Jones Store","Phoenix, AZ",North,2024-06-14
+73,Mitchell and Sons Store,"Austin, TX",West,2021-11-06
+74,"Olson, Wilson and Kim Store","Indianapolis, IN",North,2022-09-19
+75,Martinez-Rodriguez Store,"Indianapolis, IN",South,2024-06-19
+76,James-Prince Store,"New York, NY",Central,2020-07-27
+77,Scott PLC Store,"Fort Worth, TX",West,2022-05-25
+78,Quinn LLC Store,"Denver, CO",North,2020-12-14
+79,Huynh-Leon Store,"San Jose, CA",South,2022-02-21
+80,Hayes-Pineda Store,"Phoenix, AZ",West,2021-03-31
+81,"Davis, Sanders and Ferguson Store","Chicago, IL",North,2022-11-03
+82,Powell-Kennedy Store,"San Diego, CA",South,2023-05-17
+83,Gardner Ltd Store,"Phoenix, AZ",South,2022-07-24
+84,"Adams, Dunn and Williams Store","Indianapolis, IN",Central,2021-08-30
+85,"Diaz, Hunter and Cowan Store","Boston, MA",Central,2020-11-20
+86,Winters-Smith Store,"Austin, TX",West,2022-08-03
+87,Wu LLC Store,"Phoenix, AZ",East,2024-01-22
+88,"Sutton, Johnson and Dodson Store","San Jose, CA",East,2020-12-27
+89,Gould-Drake Store,"Boston, MA",West,2021-03-17
+90,"Casey, Reynolds and Mcdonald Store","Los Angeles, CA",West,2021-07-09
+91,Johnson-Ayers Store,"San Diego, CA",South,2022-08-26
+92,Duran Group Store,"Boston, MA",Central,2023-10-23
+93,Green and Sons Store,"Chicago, IL",South,2023-03-25
+94,"Miller, Hayes and Anderson Store","Denver, CO",West,2021-01-28
+95,"Harris, Garner and Smith Store","Houston, TX",North,2021-10-29
+96,"Perez, Parsons and May Store","Phoenix, AZ",East,2023-08-14
+97,Ramirez Inc Store,"Seattle, WA",North,2023-02-02
+98,Mitchell-Gutierrez Store,"San Francisco, CA",North,2022-10-17
+99,"Woods, Hoffman and Dickson Store","Charlotte, NC",East,2022-09-09
+100,Harris and Sons Store,"Philadelphia, PA",East,2024-03-04
+101,Banks-Barron Store,"Philadelphia, PA",North,2021-02-11
+102,Pacheco-Norman Store,"Dallas, TX",Central,2020-11-18
+103,Cox and Sons Store,"Jacksonville, FL",East,2023-02-09
+104,Diaz PLC Store,"Chicago, IL",North,2022-08-11
+105,Randolph Inc Store,"Philadelphia, PA",West,2021-04-09
+106,Brown-Williams Store,"Dallas, TX",West,2021-06-04
+107,"Collins, Sloan and Wells Store","Dallas, TX",West,2022-07-22
+108,Smith-Dixon Store,"Phoenix, AZ",North,2021-09-16
+109,Kennedy Group Store,"Denver, CO",West,2024-02-15
+110,"King, Hicks and Smith Store","Los Angeles, CA",East,2023-04-02
+111,Matthews Group Store,"San Jose, CA",West,2022-05-24
+112,Thompson PLC Store,"Columbus, OH",Central,2023-02-23
+113,Lynch-Walker Store,"Phoenix, AZ",West,2023-01-23
+114,Bullock-Bradley Store,"Jacksonville, FL",Central,2024-03-27
+115,Waters and Sons Store,"Boston, MA",East,2024-05-01
+116,Cobb Ltd Store,"Jacksonville, FL",North,2024-04-16
+117,Hill PLC Store,"Columbus, OH",Central,2021-11-11
+118,"Stewart, Carey and Fisher Store","Charlotte, NC",East,2022-07-15
+119,Sanchez and Sons Store,"Los Angeles, CA",Central,2020-08-22
+120,Chen PLC Store,"Los Angeles, CA",South,2022-02-16
+121,"Miller, Reynolds and Preston Store","Seattle, WA",North,2023-10-18
+122,Hall Inc Store,"Phoenix, AZ",North,2023-09-28
+123,Jimenez-Johnson Store,"San Jose, CA",West,2023-03-10
+124,Cruz-Johnson Store,"Philadelphia, PA",Central,2020-10-22
+125,"Terrell, Allison and Hoffman Store","Fort Worth, TX",North,2024-06-14
+126,Phillips-Garcia Store,"San Diego, CA",West,2024-05-29
+127,Johnson PLC Store,"Charlotte, NC",North,2021-04-11
+128,Anderson-Dunn Store,"Jacksonville, FL",West,2021-09-13
+129,Powell-Lewis Store,"Charlotte, NC",Central,2022-04-07
+130,"Hester, Simmons and Jones Store","Charlotte, NC",North,2024-03-05
+131,Salinas Group Store,"Chicago, IL",South,2024-05-06
+132,Warner and Sons Store,"Houston, TX",West,2022-11-30
+133,"Parks, Davidson and Mccarthy Store","Columbus, OH",South,2022-02-06
+134,"Heath, Williams and Ward Store","Fort Worth, TX",East,2022-05-15
+135,Wolfe PLC Store,"Chicago, IL",East,2022-08-31
+136,"Robinson, Barron and Sullivan Store","Austin, TX",Central,2023-04-21
+137,"Wright, Figueroa and Wall Store","San Francisco, CA",South,2022-02-19
+138,Escobar PLC Store,"San Francisco, CA",North,2021-07-23
+139,Cooper Group Store,"Dallas, TX",West,2022-05-25
+140,Small-Cox Store,"Los Angeles, CA",Central,2021-01-08
+141,"Hill, Morgan and Hall Store","Phoenix, AZ",West,2020-10-06
+142,"Mcfarland, Palmer and Wolfe Store","Phoenix, AZ",South,2022-03-25
+143,Weaver-Cunningham Store,"Austin, TX",Central,2021-02-18
+144,"Tanner, Bennett and Campbell Store","Los Angeles, CA",Central,2021-07-18
+145,Smith-Bell Store,"Fort Worth, TX",North,2023-11-10
+146,Bowman-Moore Store,"Jacksonville, FL",West,2024-05-31
+147,"Thompson, Cook and Moyer Store","San Francisco, CA",South,2022-09-10
+148,Gentry Inc Store,"Los Angeles, CA",South,2023-05-13
+149,Kim Group Store,"New York, NY",West,2021-04-21
+150,Chapman Inc Store,"Dallas, TX",East,2021-05-12
+151,"Haney, Barber and Johnson Store","Philadelphia, PA",North,2021-04-29
+152,Davis-Moore Store,"Phoenix, AZ",North,2022-11-30
+153,"Pace, Hunt and Bennett Store","Dallas, TX",West,2021-09-30
+154,Smith Group Store,"Chicago, IL",East,2023-07-30
+155,Mendez PLC Store,"Charlotte, NC",West,2022-04-27
+156,Delacruz Ltd Store,"Indianapolis, IN",South,2023-06-16
+157,Weber and Sons Store,"Dallas, TX",South,2023-03-09
+158,Anderson LLC Store,"Los Angeles, CA",North,2020-08-07
+159,"Ruiz, Richardson and Carter Store","Columbus, OH",East,2021-11-27
+160,Jones Group Store,"San Jose, CA",South,2021-12-18
+161,Diaz-Wells Store,"San Antonio, TX",East,2022-07-22
+162,Walters PLC Store,"Columbus, OH",West,2020-10-03
+163,Jennings Ltd Store,"San Francisco, CA",Central,2022-06-14
+164,"Webster, Mueller and Long Store","Philadelphia, PA",West,2023-12-16
+165,Ewing-Mendoza Store,"Jacksonville, FL",Central,2022-07-25
+166,"Hines, Massey and Wilson Store","Fort Worth, TX",North,2022-10-05
+167,Maxwell Ltd Store,"Seattle, WA",Central,2022-03-13
+168,Clayton-Russell Store,"San Antonio, TX",North,2024-05-13
+169,"Hensley, Keller and Lee Store","Denver, CO",Central,2020-10-14
+170,Sullivan-Ballard Store,"Phoenix, AZ",East,2021-02-16
+171,Steele-Bennett Store,"Austin, TX",North,2022-04-28
+172,"Davis, Miller and Lewis Store","Phoenix, AZ",West,2023-07-05
+173,Delacruz-Hester Store,"Phoenix, AZ",West,2021-10-13
+174,Bradford-Cox Store,"Austin, TX",North,2022-01-16
+175,Cruz and Sons Store,"Columbus, OH",East,2021-07-18
+176,Butler LLC Store,"Indianapolis, IN",North,2021-03-31
+177,"Payne, Hess and Collins Store","Charlotte, NC",South,2023-04-16
+178,Chapman-Bennett Store,"Charlotte, NC",Central,2020-09-02
+179,"Harrington, Pineda and Hess Store","Houston, TX",North,2020-12-06
+180,Todd-Holmes Store,"San Antonio, TX",South,2020-08-12
+181,Roberts Inc Store,"Columbus, OH",Central,2021-03-29
+182,Pace PLC Store,"Philadelphia, PA",Central,2022-04-02
+183,Garcia-Pham Store,"Fort Worth, TX",South,2022-01-12
+184,"Hobbs, Delacruz and Salazar Store","Jacksonville, FL",South,2023-12-08
+185,Pena PLC Store,"San Antonio, TX",Central,2021-04-21
+186,Burke Ltd Store,"New York, NY",East,2021-08-20
+187,Acevedo Inc Store,"Jacksonville, FL",North,2023-03-20
+188,Moody LLC Store,"San Jose, CA",East,2024-06-11
+189,"Morris, Guerra and Lawson Store","Indianapolis, IN",North,2022-11-09
+190,Alvarez LLC Store,"San Francisco, CA",West,2022-01-27
+191,"Washington, Mays and Brown Store","Columbus, OH",West,2023-01-12
+192,Bailey-Boyer Store,"Jacksonville, FL",East,2024-05-15
+193,Wolfe-Holland Store,"Seattle, WA",West,2021-12-13
+194,Mitchell and Sons Store,"Indianapolis, IN",East,2022-01-24
+195,Webb-Gray Store,"Houston, TX",South,2022-06-01
+196,Ballard-Douglas Store,"Charlotte, NC",West,2023-01-17
+197,"Anderson, Farley and Nelson Store","Jacksonville, FL",South,2022-11-16
+198,Robinson-Miller Store,"Seattle, WA",Central,2022-02-27
+199,Murphy-Hayes Store,"Philadelphia, PA",Central,2024-05-25
+200,Johnson PLC Store,"Columbus, OH",West,2021-09-10
+201,Santiago-Livingston Store,"San Jose, CA",West,2022-08-16
+202,"Ware, Ramirez and Evans Store","San Jose, CA",Central,2022-09-16
+203,"Rice, Bennett and Chapman Store","Houston, TX",North,2022-01-31
+204,Blanchard-Young Store,"Houston, TX",North,2022-01-09
+205,Adams-Gardner Store,"New York, NY",Central,2022-03-06
+206,"Munoz, Aguilar and Morrison Store","Columbus, OH",North,2020-07-02
+207,Holmes-Hall Store,"San Francisco, CA",Central,2024-02-14
+208,Martinez-Schwartz Store,"Seattle, WA",North,2021-10-06
+209,Reese PLC Store,"Charlotte, NC",Central,2021-08-11
+210,Mcdaniel LLC Store,"Denver, CO",North,2021-07-06
+211,Lopez-Brown Store,"San Jose, CA",West,2021-01-08
+212,Nelson-Barber Store,"San Antonio, TX",South,2022-05-23
+213,Brown-Guzman Store,"Charlotte, NC",Central,2021-06-24
+214,"Martin, Alvarez and Conway Store","Fort Worth, TX",North,2022-04-18
+215,Wiggins and Sons Store,"San Antonio, TX",West,2022-11-30
+216,Reyes-Smith Store,"Houston, TX",East,2022-04-07
+217,Jarvis Inc Store,"Charlotte, NC",West,2021-05-20
+218,Mills-George Store,"Fort Worth, TX",North,2023-03-24
+219,"Strong, Castro and Lucas Store","Jacksonville, FL",South,2022-08-11
+220,Stevens-Macdonald Store,"Indianapolis, IN",East,2022-05-08
+221,Rodriguez PLC Store,"Dallas, TX",East,2023-02-01
+222,"Lewis, Lang and Burton Store","San Jose, CA",West,2024-05-30
+223,Schmitt-Hayes Store,"San Diego, CA",North,2022-12-02
+224,Holt-Torres Store,"Columbus, OH",North,2023-03-06
+225,Olsen-Davis Store,"New York, NY",North,2024-05-26
+226,Jones-Powell Store,"Phoenix, AZ",East,2022-02-04
+227,"Gonzales, Hubbard and Rose Store","Indianapolis, IN",Central,2020-10-01
+228,Pope PLC Store,"Austin, TX",East,2022-01-15
+229,"Wilson, Smith and Gonzalez Store","Philadelphia, PA",Central,2023-06-13
+230,Anderson-Cohen Store,"Columbus, OH",South,2022-12-06
+231,Turner-Bishop Store,"Seattle, WA",West,2022-01-29
+232,Lamb-Hill Store,"San Antonio, TX",Central,2022-06-01
+233,Strickland and Sons Store,"Fort Worth, TX",North,2022-01-17
+234,Stuart-Pratt Store,"Denver, CO",West,2023-09-27
+235,"Santos, Mitchell and Anderson Store","Phoenix, AZ",West,2023-01-30
+236,Jackson-Stein Store,"Philadelphia, PA",West,2023-01-29
+237,Haynes PLC Store,"Austin, TX",Central,2022-12-07
+238,Hardin-Martin Store,"Philadelphia, PA",West,2020-07-04
+239,Clarke PLC Store,"San Diego, CA",North,2021-02-13
+240,Kelly Group Store,"Phoenix, AZ",Central,2021-10-03
+241,Schultz-Ross Store,"Houston, TX",Central,2022-03-05
+242,George-Johnson Store,"Fort Worth, TX",East,2020-10-15
+243,Mcdowell and Sons Store,"Seattle, WA",South,2020-10-29
+244,Anderson-Turner Store,"Austin, TX",South,2024-04-08
+245,Reilly Ltd Store,"Chicago, IL",North,2022-04-18
+246,"Norris, Neal and Thomas Store","New York, NY",West,2022-03-01
+247,Cherry-Davis Store,"New York, NY",Central,2023-09-18
+248,Cole-Stark Store,"Phoenix, AZ",North,2024-04-16
+249,"Newton, Gonzalez and Allen Store","Boston, MA",Central,2021-06-05
+250,Graham-Skinner Store,"Chicago, IL",Central,2021-09-17
+251,Smith PLC Store,"Fort Worth, TX",North,2021-07-17
+252,West-Mccarty Store,"Phoenix, AZ",West,2020-10-21
+253,"Barnett, Thompson and Johnston Store","Jacksonville, FL",South,2023-10-18
+254,"Wise, Brown and Perry Store","San Diego, CA",South,2020-09-24
+255,Miller LLC Store,"San Jose, CA",South,2020-09-21
+256,"Pace, Esparza and Barron Store","Seattle, WA",South,2023-02-22
+257,"Russell, Mckenzie and Lewis Store","Fort Worth, TX",East,2023-01-04
+258,Wood-Barry Store,"Los Angeles, CA",East,2021-12-01
+259,Adkins-Anderson Store,"Chicago, IL",South,2023-02-08
+260,Robinson PLC Store,"New York, NY",Central,2021-08-04
+261,Gibson-Thompson Store,"Houston, TX",North,2021-07-06
+262,"Williams, Salas and Harding Store","Charlotte, NC",Central,2023-06-27
+263,"Thompson, Duke and Villanueva Store","Houston, TX",North,2020-12-05
+264,Frazier-Wilcox Store,"Phoenix, AZ",East,2024-05-25
+265,Walter-Davidson Store,"Dallas, TX",South,2023-10-10
+266,Soto-Maynard Store,"Chicago, IL",North,2022-03-10
+267,"Barnett, Henderson and Adkins Store","San Francisco, CA",East,2020-06-24
+268,"Fritz, Miller and Blake Store","San Antonio, TX",West,2023-08-07
+269,"Campbell, Dawson and Pope Store","Houston, TX",West,2023-11-10
+270,Stevenson LLC Store,"New York, NY",West,2023-07-27
+271,Chambers-Montgomery Store,"Chicago, IL",West,2022-06-25
+272,"Stewart, Brooks and Mcdowell Store","Chicago, IL",South,2024-01-04
+273,Santiago Inc Store,"Columbus, OH",West,2023-07-03
+274,"Peck, Mack and Butler Store","Austin, TX",West,2021-11-16
+275,Brown PLC Store,"Philadelphia, PA",South,2020-07-24
+276,"Newman, Rodriguez and Weber Store","San Jose, CA",North,2023-08-07
+277,Wise-Gibson Store,"Philadelphia, PA",Central,2023-01-10
+278,Murphy Inc Store,"Boston, MA",North,2021-05-26
+279,Nichols-Gray Store,"Houston, TX",East,2021-05-19
+280,"Patton, Nelson and Flowers Store","Jacksonville, FL",West,2020-12-24
+281,Watts LLC Store,"Boston, MA",Central,2023-02-28
+282,Silva and Sons Store,"Seattle, WA",North,2023-08-04
+283,"Webster, Rodriguez and Kelly Store","Philadelphia, PA",Central,2024-03-03
+284,Castro-Sanchez Store,"Dallas, TX",North,2023-12-29
+285,Cohen-Perkins Store,"San Antonio, TX",Central,2023-11-13
+286,Blake Ltd Store,"New York, NY",Central,2023-05-25
+287,"Clark, Lopez and Dean Store","New York, NY",Central,2023-12-28
+288,Johnson LLC Store,"Indianapolis, IN",South,2023-03-13
+289,"Richardson, Reed and Hebert Store","San Antonio, TX",East,2024-06-10
+290,Beasley LLC Store,"Houston, TX",South,2022-11-24
+291,Cruz-Reed Store,"New York, NY",East,2024-03-02
+292,"Holt, Flowers and Patrick Store","Phoenix, AZ",South,2022-11-06
+293,"Carpenter, Roberts and Jones Store","Chicago, IL",South,2022-10-13
+294,Miller-Ryan Store,"Dallas, TX",East,2022-07-03
+295,Payne-Schmidt Store,"San Francisco, CA",South,2021-03-20
+296,"Bentley, Smith and Mathis Store","Chicago, IL",East,2021-10-30
+297,Barber PLC Store,"Seattle, WA",East,2021-06-09
+298,Stone-Smith Store,"Charlotte, NC",West,2023-11-20
+299,"Morrison, Reynolds and Ward Store","Columbus, OH",Central,2023-01-17
+300,"Mills, Powell and Leon Store","Fort Worth, TX",South,2023-03-28
+301,Wall LLC Store,"Dallas, TX",South,2021-11-01
+302,Moore-Flores Store,"San Antonio, TX",East,2023-06-16
+303,"Mcdonald, Huang and Barr Store","Fort Worth, TX",North,2022-04-05
+304,"Aguirre, Romero and Kelly Store","Denver, CO",Central,2022-04-12
+305,Brown-Riley Store,"San Jose, CA",South,2023-12-15
+306,"Anderson, Tucker and Mercado Store","San Antonio, TX",West,2023-02-14
+307,Williams Group Store,"Columbus, OH",West,2023-08-23
+308,"Pruitt, Tanner and Pollard Store","Columbus, OH",Central,2021-04-21
+309,Chen LLC Store,"Dallas, TX",East,2024-02-24
+310,Castillo-Simpson Store,"Boston, MA",North,2022-12-04
+311,Hernandez Ltd Store,"Boston, MA",West,2023-08-25
+312,Smith-Woods Store,"Columbus, OH",South,2023-01-05
+313,"Webb, Stout and Delgado Store","Denver, CO",East,2023-06-20
+314,Martinez and Sons Store,"Jacksonville, FL",North,2020-09-13
+315,Todd Group Store,"Charlotte, NC",South,2024-02-10
+316,"Maldonado, Banks and Moss Store","Los Angeles, CA",Central,2022-12-11
+317,"King, Martinez and Hamilton Store","Dallas, TX",Central,2024-05-21
+318,Perry-Fisher Store,"Columbus, OH",East,2022-05-28
+319,Burns PLC Store,"Boston, MA",Central,2021-05-08
+320,Ramos Group Store,"Jacksonville, FL",West,2021-12-08
+321,"Mann, Stephens and Rodriguez Store","New York, NY",North,2023-03-18
+322,Smith Inc Store,"Philadelphia, PA",East,2020-10-08
+323,Miller-Glenn Store,"Columbus, OH",South,2021-05-10
+324,Rivera PLC Store,"Jacksonville, FL",South,2024-03-17
+325,Combs Group Store,"Chicago, IL",South,2021-08-26
+326,"Reyes, Gray and Dominguez Store","Jacksonville, FL",East,2021-04-24
+327,Pierce Inc Store,"Phoenix, AZ",East,2023-09-06
+328,Hawkins Ltd Store,"Houston, TX",North,2021-05-30
+329,Henry-Lewis Store,"Austin, TX",North,2023-11-16
+330,Reyes-Stevenson Store,"Austin, TX",South,2024-05-30
+331,Wilson-James Store,"Charlotte, NC",Central,2023-08-20
+332,Jordan Ltd Store,"Austin, TX",South,2021-06-02
+333,Rice-Mcclure Store,"Seattle, WA",North,2021-02-16
+334,Martinez-Wilson Store,"Fort Worth, TX",East,2020-09-16
+335,Drake Inc Store,"Boston, MA",South,2022-06-27
+336,Ruiz-Patrick Store,"Indianapolis, IN",South,2023-10-19
+337,"Williams, Garcia and Davis Store","Houston, TX",Central,2020-09-18
+338,Saunders-Nelson Store,"Dallas, TX",Central,2023-01-08
+339,"Patterson, Rivera and Soto Store","Chicago, IL",Central,2022-04-16
+340,Cole-Smith Store,"Columbus, OH",West,2021-05-16
+341,"Walker, Fuller and Harrell Store","Austin, TX",East,2021-10-01
+342,"Christensen, Morse and Tate Store","San Antonio, TX",South,2024-03-13
+343,Bass Inc Store,"Los Angeles, CA",West,2023-09-29
+344,"Moran, Silva and Garrett Store","San Francisco, CA",North,2023-06-10
+345,Moreno-Fernandez Store,"Dallas, TX",West,2023-11-19
+346,Martin-Wise Store,"Houston, TX",North,2022-08-16
+347,Stewart-Lewis Store,"Charlotte, NC",South,2021-07-12
+348,Johnson PLC Store,"Boston, MA",East,2023-09-28
+349,Johnson Group Store,"Denver, CO",West,2023-11-12
+350,Johnson Group Store,"San Diego, CA",Central,2024-04-13
+351,Bailey-Green Store,"New York, NY",East,2021-11-10
+352,"Parsons, Hamilton and Roberts Store","New York, NY",Central,2023-04-26
+353,Clark-Taylor Store,"New York, NY",West,2020-10-16
+354,Nash-Thomas Store,"San Jose, CA",South,2024-05-31
+355,Williams LLC Store,"Fort Worth, TX",North,2022-07-01
+356,Wells and Sons Store,"Seattle, WA",Central,2024-05-25
+357,Jennings Inc Store,"Los Angeles, CA",East,2022-08-24
+358,Patton Ltd Store,"New York, NY",North,2024-02-22
+359,"Fitzpatrick, Cameron and Walsh Store","San Francisco, CA",North,2023-01-08
+360,"Small, Robertson and Patterson Store","Columbus, OH",East,2023-04-01
+361,Martin LLC Store,"Dallas, TX",East,2022-06-24
+362,Torres-Hobbs Store,"Jacksonville, FL",West,2020-09-16
+363,Maldonado-Maxwell Store,"Chicago, IL",Central,2024-02-28
+364,Davis and Sons Store,"Austin, TX",West,2022-04-02
+365,"Sullivan, Garcia and Cunningham Store","Boston, MA",North,2024-01-26
+366,"Wiggins, Kidd and Mccullough Store","Fort Worth, TX",East,2024-05-14
+367,Anderson-Cook Store,"Charlotte, NC",West,2024-03-13
+368,Harris-Valdez Store,"Houston, TX",East,2020-12-05
+369,Hayes Inc Store,"Boston, MA",North,2024-03-19
+370,"Jenkins, Newman and Hill Store","New York, NY",South,2024-06-09
+371,Garcia-Kennedy Store,"Los Angeles, CA",North,2021-05-30
+372,"Larsen, Patterson and Hudson Store","Phoenix, AZ",North,2021-03-27
+373,Carter-Lopez Store,"Austin, TX",West,2021-02-27
+374,Wallace-James Store,"San Diego, CA",South,2022-10-20
+375,"Bowman, Henry and Olson Store","Chicago, IL",South,2023-06-26
+376,"Gallegos, Brooks and Hughes Store","Jacksonville, FL",Central,2024-01-27
+377,Walker and Sons Store,"New York, NY",North,2024-05-14
+378,"Wright, Castillo and Poole Store","Dallas, TX",North,2020-11-13
+379,"Ramsey, Macias and Gomez Store","Houston, TX",North,2023-01-21
+380,Shelton Ltd Store,"San Jose, CA",North,2023-09-18
+381,Schneider-Saunders Store,"Dallas, TX",East,2022-12-15
+382,Chandler-Welch Store,"Boston, MA",West,2021-05-12
+383,Brown LLC Store,"Dallas, TX",South,2022-06-03
+384,Hernandez-Robbins Store,"Phoenix, AZ",Central,2022-02-22
+385,"Davis, Fowler and Day Store","Charlotte, NC",North,2024-05-17
+386,Parks-Fuller Store,"Phoenix, AZ",East,2021-05-22
+387,"Ayala, Davis and Martinez Store","Phoenix, AZ",Central,2023-07-01
+388,"Velasquez, Vega and Kerr Store","Columbus, OH",West,2023-07-27
+389,Lopez-Moss Store,"Houston, TX",Central,2022-07-04
+390,Cortez-Daniel Store,"Indianapolis, IN",South,2022-01-22
+391,"Clayton, Kerr and Johnson Store","Denver, CO",West,2024-03-10
+392,"Brown, David and Fowler Store","San Francisco, CA",East,2021-05-01
+393,Hill PLC Store,"Austin, TX",West,2021-04-16
+394,Morris PLC Store,"San Diego, CA",North,2020-09-18
+395,"Jimenez, Gilbert and Ellison Store","Dallas, TX",East,2024-05-02
+396,Mitchell and Sons Store,"Chicago, IL",East,2021-08-25
+397,"Green, Padilla and Ford Store","Seattle, WA",South,2021-01-17
+398,"Henry, Roberts and Smith Store","San Antonio, TX",North,2022-02-05
+399,Turner-Morrison Store,"Chicago, IL",West,2021-04-10
+400,Rice-Daniel Store,"Los Angeles, CA",South,2022-07-24
+401,Munoz Ltd Store,"New York, NY",South,2021-02-27
+402,Garcia-Powers Store,"Charlotte, NC",West,2022-09-17
+403,"Williams, Collins and Baker Store","San Antonio, TX",West,2023-08-18
+404,Taylor-Woods Store,"Houston, TX",East,2021-04-17
+405,Hensley and Sons Store,"San Antonio, TX",Central,2021-10-27
+406,Anderson PLC Store,"Indianapolis, IN",Central,2024-02-12
+407,Mcgrath-Walker Store,"Austin, TX",East,2020-07-01
+408,Dean Ltd Store,"Charlotte, NC",South,2021-06-24
+409,Coleman-Espinoza Store,"Indianapolis, IN",North,2023-11-14
+410,Turner PLC Store,"Phoenix, AZ",South,2022-01-28
+411,Bentley-Wilson Store,"Jacksonville, FL",West,2022-11-03
+412,Woods Inc Store,"Charlotte, NC",Central,2022-04-26
+413,Watson Ltd Store,"Indianapolis, IN",South,2021-01-16
+414,"Phillips, Green and Gibson Store","Fort Worth, TX",South,2023-04-26
+415,Smith-Johnson Store,"Chicago, IL",East,2023-09-10
+416,Green-Cook Store,"Columbus, OH",South,2022-07-30
+417,Washington Group Store,"San Jose, CA",Central,2021-09-20
+418,Holmes-Wilson Store,"Houston, TX",South,2022-08-27
+419,Wilson Group Store,"Charlotte, NC",North,2022-03-19
+420,Nichols-Young Store,"Houston, TX",South,2021-11-14
+421,Fernandez-Walsh Store,"New York, NY",West,2023-12-19
+422,Mora LLC Store,"Philadelphia, PA",East,2020-12-23
+423,"Herrera, Hughes and Smith Store","New York, NY",West,2021-03-24
+424,Roman-Parker Store,"Indianapolis, IN",West,2022-06-02
+425,"Gallegos, Collins and Rodriguez Store","Jacksonville, FL",East,2021-07-08
+426,Newman PLC Store,"Houston, TX",Central,2023-02-04
+427,Valdez LLC Store,"Chicago, IL",East,2023-03-02
+428,Lin-Carroll Store,"Columbus, OH",South,2023-02-10
+429,Soto PLC Store,"Phoenix, AZ",West,2022-06-30
+430,"Young, Ballard and Meyer Store","Indianapolis, IN",West,2021-08-06
+431,"Smith, Garcia and Ellis Store","Indianapolis, IN",East,2020-10-06
+432,Petty-Terry Store,"Los Angeles, CA",West,2024-02-17
+433,Holland-Cowan Store,"Dallas, TX",East,2021-04-01
+434,"Smith, Garza and Maldonado Store","Houston, TX",North,2021-08-06
+435,Hudson-Acevedo Store,"Fort Worth, TX",West,2020-07-11
+436,"Smith, Lee and Leon Store","San Antonio, TX",East,2024-05-09
+437,"Larson, Moore and Knight Store","San Antonio, TX",West,2020-08-25
+438,Green-Davis Store,"Philadelphia, PA",Central,2022-12-10
+439,Nguyen-Curry Store,"Dallas, TX",Central,2020-08-08
+440,"Cunningham, Marshall and King Store","Boston, MA",West,2020-12-23
+441,Bowman-Peters Store,"Indianapolis, IN",West,2024-05-02
+442,"Smith, Jackson and Pierce Store","Houston, TX",North,2022-01-04
+443,White-Gutierrez Store,"San Diego, CA",North,2024-06-02
+444,"Smith, Riley and Johnson Store","San Diego, CA",North,2023-12-12
+445,"Tate, Dixon and Smith Store","Los Angeles, CA",North,2021-06-17
+446,Cook and Sons Store,"Denver, CO",East,2022-04-18
+447,Payne Group Store,"San Diego, CA",North,2023-12-07
+448,"Mendoza, Martin and Hardy Store","Seattle, WA",North,2023-11-10
+449,Williams and Sons Store,"Dallas, TX",South,2020-07-05
+450,Brown PLC Store,"Boston, MA",West,2020-09-20
+451,Duncan-Jackson Store,"Fort Worth, TX",West,2021-02-18
+452,"Garza, Gray and Holland Store","Houston, TX",South,2021-02-20
+453,Adams-Bailey Store,"Dallas, TX",West,2024-05-19
+454,Cantrell PLC Store,"San Antonio, TX",South,2020-09-15
+455,Roberson Ltd Store,"San Antonio, TX",East,2024-01-19
+456,Gross-Harvey Store,"San Jose, CA",Central,2021-02-19
+457,"Wheeler, Sweeney and Randolph Store","San Jose, CA",North,2023-02-13
+458,Robinson-Medina Store,"Houston, TX",South,2023-11-17
+459,Silva-Warner Store,"Indianapolis, IN",Central,2022-01-12
+460,"Aguilar, Huang and Wilkins Store","San Francisco, CA",East,2022-06-02
+461,"Adams, Morris and Lynch Store","San Diego, CA",South,2020-09-06
+462,Wise Ltd Store,"Austin, TX",North,2021-05-22
+463,Ward PLC Store,"Philadelphia, PA",South,2022-06-27
+464,Bruce-Hernandez Store,"Austin, TX",West,2022-07-14
+465,Baker Ltd Store,"Phoenix, AZ",North,2021-05-01
+466,"Cabrera, Davis and Hamilton Store","San Francisco, CA",West,2023-02-14
+467,Bell PLC Store,"Austin, TX",North,2022-06-04
+468,Smith Ltd Store,"Philadelphia, PA",East,2021-01-25
+469,Miller-Ball Store,"Chicago, IL",South,2022-11-16
+470,Hooper Ltd Store,"New York, NY",Central,2023-11-26
+471,"Evans, Patterson and Knight Store","Jacksonville, FL",West,2022-12-24
+472,Pearson and Sons Store,"Denver, CO",North,2022-04-30
+473,"Gilbert, Cross and Davis Store","San Francisco, CA",South,2021-10-13
+474,Weeks-Miller Store,"San Francisco, CA",North,2020-10-02
+475,"Mullen, Kennedy and Martin Store","Los Angeles, CA",North,2021-08-03
+476,"Turner, Rodgers and Nelson Store","Denver, CO",East,2021-07-02
+477,Johnston and Sons Store,"San Diego, CA",Central,2022-02-25
+478,"Pruitt, Black and Sanders Store","Indianapolis, IN",South,2023-05-30
+479,Whitney Group Store,"Phoenix, AZ",North,2023-02-05
+480,Clayton PLC Store,"Houston, TX",East,2023-01-08
+481,Kelly Inc Store,"Austin, TX",West,2020-10-16
+482,Mitchell-Clark Store,"San Francisco, CA",East,2023-07-10
+483,"Gamble, Griffin and Jennings Store","Seattle, WA",East,2023-02-06
+484,"Anderson, Cooper and Fuentes Store","San Francisco, CA",East,2023-04-06
+485,Marks-Fisher Store,"Jacksonville, FL",West,2020-07-26
+486,"Kelley, Coleman and Greene Store","New York, NY",East,2020-07-10
+487,Morgan Ltd Store,"San Jose, CA",East,2022-09-20
+488,Deleon Group Store,"Indianapolis, IN",Central,2023-11-25
+489,Padilla-Carter Store,"San Francisco, CA",North,2023-01-20
+490,"Mitchell, Webb and Johnson Store","Dallas, TX",Central,2021-01-04
+491,Wilson-Schwartz Store,"New York, NY",South,2022-01-16
+492,"West, Taylor and Benson Store","Columbus, OH",South,2023-08-06
+493,Howell LLC Store,"Phoenix, AZ",East,2023-09-15
+494,Norris-Merritt Store,"San Francisco, CA",North,2023-10-27
+495,"Mendoza, Roberts and Hughes Store","San Diego, CA",Central,2024-04-12
+496,Raymond PLC Store,"Columbus, OH",East,2021-04-27
+497,Anderson-Herrera Store,"San Antonio, TX",North,2020-08-03
+498,"Davis, Mueller and Brown Store","San Antonio, TX",West,2023-05-03
+499,Wright-Davidson Store,"Houston, TX",East,2021-09-13
+500,"Miller, Smith and Baker Store","Seattle, WA",West,2023-07-28

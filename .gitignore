@@ -10,7 +10,4 @@ __pycache__/
 
 # OS-specific
 .DS_Store
-
-# Data and index files
-data/
-faiss_index/
+.env

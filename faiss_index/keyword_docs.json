@@ -1,0 +1,66 @@
+{
+  "0": {
+    "content": "Field: order_items.total_sales\nType: measure (sum)\nDescription: Total revenue from all order items. Sum of line_total for all items.\nUsage: Primary revenue metric for financial reporting and sales analysis.\nExamples:\n- Total sales: total_sales\n- Sales by month: group by order_date, select total_sales\n- Sales by region: group by customers.state, select total_sales\n- Revenue trends over time ",
+    "metadata": {
+      "field_name": "order_items.total_sales",
+      "file_path": "lookml_docs/order_items.total_sales.txt",
+      "doc_type": "field_documentation"
+    }
+  },
+  "1": {
+    "content": "Field: orders.order_date\nType: dimension (date)\nDescription: Date when the order was placed. Covers last 90 days of data.\nUsage: Use for time-based analysis and trend reporting.\nExamples:\n- Recent orders: order_date >= '2024-01-01'\n- Last 30 days: order_date >= 30 days ago\n- Monthly sales trends: group by month of order_date ",
+    "metadata": {
+      "field_name": "orders.order_date",
+      "file_path": "lookml_docs/orders.order_date.txt",
+      "doc_type": "field_documentation"
+    }
+  },
+  "2": {
+    "content": "Field: customers.age\nType: dimension (number)\nDescription: Customer's age in years (18-80 range).\nUsage: Use for demographic analysis and age-based segmentation.\nExamples:\n- Filter millennials: age >= 25 AND age <= 40\n- Senior customers: age >= 65\n- Average customer age analysis ",
+    "metadata": {
+      "field_name": "customers.age",
+      "file_path": "lookml_docs/customers.age.txt",
+      "doc_type": "field_documentation"
+    }
+  },
+  "3": {
+    "content": "Field: products.category\nType: dimension (string)\nDescription: Product category classification (Electronics, Clothing, Home & Garden, Sports, Books, Beauty, Toys).\nUsage: Use for product analysis and category performance reporting.\nExamples:\n- Electronics sales: filter by category = 'Electronics'\n- Category performance: group by category, select total_sales\n- Top-selling categories analysis ",
+    "metadata": {
+      "field_name": "products.category",
+      "file_path": "lookml_docs/products.category.txt",
+      "doc_type": "field_documentation"
+    }
+  },
+  "4": {
+    "content": "Field: customers.customer_id\nType: dimension (number)\nDescription: Unique identifier for each customer in the retail system. Primary key for the customers table.\nUsage: Use for filtering by specific customer or joining with orders data.\nExamples: \n- Filter by specific customer: customer_id = 1234\n- Count unique customers: count(distinct customer_id) ",
+    "metadata": {
+      "field_name": "customers.customer_id",
+      "file_path": "lookml_docs/customers.customer_id.txt",
+      "doc_type": "field_documentation"
+    }
+  },
+  "5": {
+    "content": "Field: stores.region\nType: dimension (string)\nDescription: Geographic region where the store is located (North, South, East, West, Central).\nUsage: Use for regional performance analysis and geographic reporting.\nExamples:\n- West region performance: filter by region = 'West'\n- Regional comparison: group by region, select total_sales\n- Store performance by geography ",
+    "metadata": {
+      "field_name": "stores.region",
+      "file_path": "lookml_docs/stores.region.txt",
+      "doc_type": "field_documentation"
+    }
+  },
+  "6": {
+    "content": "Field: customers.state\nType: dimension (string)\nDescription: US state abbreviation where the customer is located (e.g., CA, NY, TX).\nUsage: Use for geographic analysis and regional reporting.\nExamples:\n- Filter by state: state = 'CA'\n- Group by region: Compare sales across different states\n- Geographic distribution analysis ",
+    "metadata": {
+      "field_name": "customers.state",
+      "file_path": "lookml_docs/customers.state.txt",
+      "doc_type": "field_documentation"
+    }
+  },
+  "7": {
+    "content": "Field: order_items.total_quantity\nType: measure (sum)\nDescription: Total quantity of items sold across all orders. Sum of qty field.\nUsage: Use for inventory analysis and volume reporting.\nExamples:\n- Total items sold: total_quantity\n- Items sold by product: group by products.product_name, select total_quantity\n- Volume trends: Track quantity sold over time periods ",
+    "metadata": {
+      "field_name": "order_items.total_quantity",
+      "file_path": "lookml_docs/order_items.total_quantity.txt",
+      "doc_type": "field_documentation"
+    }
+  }
+}
