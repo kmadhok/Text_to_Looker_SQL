@@ -10,9 +10,16 @@ def main():
 
     st.title("🤖 Text-to-Looker Query Generator")
     st.markdown("""
+    Objective: Allow users to ask questions in natural language and get a Looker query back. (Looker query is a JSON object that can be executed by Looker API)
     This app uses Google's Gemini 2.5 Flash model to convert your natural language questions into a Looker `WriteQuery` and a SQL statement. 
-    It uses the `fake_metadata.json` file to understand the data schema.
-    """)
+    It uses the `fake_metadata.json` file to understand the data schema. 
+    Next steps:
+    - Add configuration to connect to Looker API
+    - Through Looker API and looker-sdk, input data schema and execute the query
+    
+    LLM: Gemini 2.5 Flash accomplishes translation from natural language to Looker WriteQuery parameters which can be executed by Looker API (looker-sdk).
+    Reference:  https://github.com/looker-open-source/sdk-codegen/blob/main/examples/python/run_look_with_filters.py
+                """)
 
     # Placeholders for metrics at the top
     top_cols = st.columns([3, 1, 1, 1])
