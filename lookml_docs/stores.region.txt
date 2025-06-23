@@ -1,0 +1,8 @@
+Field: stores.region
+Type: dimension (string)
+Description: Geographic region where the store is located (North, South, East, West, Central).
+Usage: Use for regional performance analysis and geographic reporting.
+Examples:
+- West region performance: filter by region = 'West'
+- Regional comparison: group by region, select total_sales
+- Store performance by geography 

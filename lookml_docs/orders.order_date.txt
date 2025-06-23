@@ -1,0 +1,8 @@
+Field: orders.order_date
+Type: dimension (date)
+Description: Date when the order was placed. Covers last 90 days of data.
+Usage: Use for time-based analysis and trend reporting.
+Examples:
+- Recent orders: order_date >= '2024-01-01'
+- Last 30 days: order_date >= 30 days ago
+- Monthly sales trends: group by month of order_date 

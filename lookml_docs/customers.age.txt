@@ -1,0 +1,8 @@
+Field: customers.age
+Type: dimension (number)
+Description: Customer's age in years (18-80 range).
+Usage: Use for demographic analysis and age-based segmentation.
+Examples:
+- Filter millennials: age >= 25 AND age <= 40
+- Senior customers: age >= 65
+- Average customer age analysis 

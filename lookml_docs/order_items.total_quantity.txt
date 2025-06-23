@@ -1,0 +1,8 @@
+Field: order_items.total_quantity
+Type: measure (sum)
+Description: Total quantity of items sold across all orders. Sum of qty field.
+Usage: Use for inventory analysis and volume reporting.
+Examples:
+- Total items sold: total_quantity
+- Items sold by product: group by products.product_name, select total_quantity
+- Volume trends: Track quantity sold over time periods 

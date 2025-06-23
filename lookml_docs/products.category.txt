@@ -1,0 +1,8 @@
+Field: products.category
+Type: dimension (string)
+Description: Product category classification (Electronics, Clothing, Home & Garden, Sports, Books, Beauty, Toys).
+Usage: Use for product analysis and category performance reporting.
+Examples:
+- Electronics sales: filter by category = 'Electronics'
+- Category performance: group by category, select total_sales
+- Top-selling categories analysis 

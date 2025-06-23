@@ -1,0 +1,9 @@
+Field: order_items.total_sales
+Type: measure (sum)
+Description: Total revenue from all order items. Sum of line_total for all items.
+Usage: Primary revenue metric for financial reporting and sales analysis.
+Examples:
+- Total sales: total_sales
+- Sales by month: group by order_date, select total_sales
+- Sales by region: group by customers.state, select total_sales
+- Revenue trends over time 

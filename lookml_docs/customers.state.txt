@@ -1,0 +1,8 @@
+Field: customers.state
+Type: dimension (string)
+Description: US state abbreviation where the customer is located (e.g., CA, NY, TX).
+Usage: Use for geographic analysis and regional reporting.
+Examples:
+- Filter by state: state = 'CA'
+- Group by region: Compare sales across different states
+- Geographic distribution analysis 

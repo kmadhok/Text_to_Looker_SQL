@@ -1,0 +1,7 @@
+Field: customers.customer_id
+Type: dimension (number)
+Description: Unique identifier for each customer in the retail system. Primary key for the customers table.
+Usage: Use for filtering by specific customer or joining with orders data.
+Examples: 
+- Filter by specific customer: customer_id = 1234
+- Count unique customers: count(distinct customer_id) 

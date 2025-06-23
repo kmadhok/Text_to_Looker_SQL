@@ -1,0 +1,409 @@
+{
+  "model": "retail",
+  "explores": [
+    {
+      "id": "customers",
+      "name": "customers",
+      "label": "Customers",
+      "sql_table_name": "`retail_sandbox.retail_sandbox.customers`",
+      "fields": {
+        "dimensions": [
+          {
+            "name": "customer_id",
+            "label": "Customer ID",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.customer_id",
+            "is_hidden": false
+          },
+          {
+            "name": "first_name",
+            "label": "First Name",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.first_name",
+            "is_hidden": false
+          },
+          {
+            "name": "last_name",
+            "label": "Last Name",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.last_name",
+            "is_hidden": false
+          },
+          {
+            "name": "email",
+            "label": "Email",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.email",
+            "is_hidden": false
+          },
+          {
+            "name": "state",
+            "label": "State",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.state",
+            "is_hidden": false
+          },
+          {
+            "name": "signup_date",
+            "label": "Signup Date",
+            "category": "dimension",
+            "type": "date",
+            "sql": "${TABLE}.signup_date",
+            "is_hidden": false
+          },
+          {
+            "name": "age",
+            "label": "Age",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.age",
+            "is_hidden": false
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "label": "Count",
+            "category": "measure",
+            "type": "count",
+            "sql": "*",
+            "is_hidden": false
+          },
+          {
+            "name": "avg_age",
+            "label": "Average Age",
+            "category": "measure",
+            "type": "average",
+            "sql": "${TABLE}.age",
+            "is_hidden": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "products",
+      "name": "products",
+      "label": "Products",
+      "sql_table_name": "`retail_sandbox.retail_sandbox.products`",
+      "fields": {
+        "dimensions": [
+          {
+            "name": "product_id",
+            "label": "Product ID",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.product_id",
+            "is_hidden": false
+          },
+          {
+            "name": "product_name",
+            "label": "Product Name",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.product_name",
+            "is_hidden": false
+          },
+          {
+            "name": "category",
+            "label": "Category",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.category",
+            "is_hidden": false
+          },
+          {
+            "name": "unit_price",
+            "label": "Unit Price",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.unit_price",
+            "is_hidden": false
+          },
+          {
+            "name": "brand",
+            "label": "Brand",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.brand",
+            "is_hidden": false
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "label": "Count",
+            "category": "measure",
+            "type": "count",
+            "sql": "*",
+            "is_hidden": false
+          },
+          {
+            "name": "avg_price",
+            "label": "Average Price",
+            "category": "measure",
+            "type": "average",
+            "sql": "${TABLE}.unit_price",
+            "is_hidden": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "stores",
+      "name": "stores",
+      "label": "Stores",
+      "sql_table_name": "`retail_sandbox.retail_sandbox.stores`",
+      "fields": {
+        "dimensions": [
+          {
+            "name": "store_id",
+            "label": "Store ID",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.store_id",
+            "is_hidden": false
+          },
+          {
+            "name": "store_name",
+            "label": "Store Name",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.store_name",
+            "is_hidden": false
+          },
+          {
+            "name": "city",
+            "label": "City",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.city",
+            "is_hidden": false
+          },
+          {
+            "name": "region",
+            "label": "Region",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.region",
+            "is_hidden": false
+          },
+          {
+            "name": "opened_date",
+            "label": "Opened Date",
+            "category": "dimension",
+            "type": "date",
+            "sql": "${TABLE}.opened_date",
+            "is_hidden": false
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "label": "Count",
+            "category": "measure",
+            "type": "count",
+            "sql": "*",
+            "is_hidden": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "orders",
+      "name": "orders",
+      "label": "Orders",
+      "sql_table_name": "`retail_sandbox.retail_sandbox.orders`",
+      "fields": {
+        "dimensions": [
+          {
+            "name": "order_id",
+            "label": "Order ID",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.order_id",
+            "is_hidden": false
+          },
+          {
+            "name": "customer_id",
+            "label": "Customer ID",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.customer_id",
+            "is_hidden": false
+          },
+          {
+            "name": "store_id",
+            "label": "Store ID",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.store_id",
+            "is_hidden": false
+          },
+          {
+            "name": "order_date",
+            "label": "Order Date",
+            "category": "dimension",
+            "type": "date",
+            "sql": "${TABLE}.order_date",
+            "is_hidden": false
+          },
+          {
+            "name": "order_status",
+            "label": "Order Status",
+            "category": "dimension",
+            "type": "string",
+            "sql": "${TABLE}.order_status",
+            "is_hidden": false
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "label": "Count",
+            "category": "measure",
+            "type": "count",
+            "sql": "*",
+            "is_hidden": false
+          }
+        ]
+      },
+      "joins": [
+        {
+          "name": "customers",
+          "type": "left_outer",
+          "relationship": "many_to_one",
+          "sql_on": "${orders.customer_id} = ${customers.customer_id} ;;"
+        },
+        {
+          "name": "stores",
+          "type": "left_outer",
+          "relationship": "many_to_one",
+          "sql_on": "${orders.store_id} = ${stores.store_id} ;;"
+        },
+        {
+          "name": "products",
+          "type": "left_outer",
+          "relationship": "many_to_one",
+          "sql_on": "${order_items.product_id} = ${products.product_id} ;;"
+        },
+        {
+          "name": "order_items",
+          "type": "left_outer",
+          "relationship": "one_to_many",
+          "sql_on": "${orders.order_id} = ${order_items.order_id} ;;"
+        }
+      ]
+    },
+    {
+      "id": "order_items",
+      "name": "order_items",
+      "label": "Order Items",
+      "sql_table_name": "`retail_sandbox.retail_sandbox.order_items`",
+      "fields": {
+        "dimensions": [
+          {
+            "name": "order_item_id",
+            "label": "Order Item ID",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.order_item_id",
+            "is_hidden": false
+          },
+          {
+            "name": "order_id",
+            "label": "Order ID",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.order_id",
+            "is_hidden": false
+          },
+          {
+            "name": "product_id",
+            "label": "Product ID",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.product_id",
+            "is_hidden": false
+          },
+          {
+            "name": "qty",
+            "label": "Quantity",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.qty",
+            "is_hidden": false
+          },
+          {
+            "name": "unit_price",
+            "label": "Unit Price",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.unit_price",
+            "is_hidden": false
+          },
+          {
+            "name": "line_total",
+            "label": "Line Total",
+            "category": "dimension",
+            "type": "number",
+            "sql": "${TABLE}.line_total",
+            "is_hidden": false
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "label": "Count",
+            "category": "measure",
+            "type": "count",
+            "sql": "*",
+            "is_hidden": false
+          },
+          {
+            "name": "total_quantity",
+            "label": "Total Quantity",
+            "category": "measure",
+            "type": "sum",
+            "sql": "${TABLE}.qty",
+            "is_hidden": false
+          },
+          {
+            "name": "avg_item_price",
+            "label": "Average Item Price",
+            "category": "measure",
+            "type": "average",
+            "sql": "${TABLE}.unit_price",
+            "is_hidden": false
+          },
+          {
+            "name": "total_sales",
+            "label": "Total Sales",
+            "category": "measure",
+            "type": "sum",
+            "sql": "${TABLE}.line_total",
+            "is_hidden": false
+          }
+        ]
+      },
+      "joins": [
+        {
+          "name": "orders",
+          "type": "left_outer",
+          "relationship": "many_to_one",
+          "sql_on": "${order_items.order_id} = ${orders.order_id} ;;"
+        },
+        {
+          "name": "products",
+          "type": "left_outer",
+          "relationship": "many_to_one",
+          "sql_on": "${order_items.product_id} = ${products.product_id} ;;"
+        }
+      ]
+    }
+  ]
+}
