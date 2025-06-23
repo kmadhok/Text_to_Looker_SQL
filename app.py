@@ -10,7 +10,7 @@ def main():
 
     st.title("🤖 Text-to-Looker Query Generator")
     st.markdown("""
-    This app uses Google's Gemini 1.5 Flash model to convert your natural language questions into a Looker `WriteQuery` and a SQL statement. 
+    This app uses Google's Gemini 2.5 Flash model to convert your natural language questions into a Looker `WriteQuery` and a SQL statement. 
     It uses the `fake_metadata.json` file to understand the data schema.
     """)
 
